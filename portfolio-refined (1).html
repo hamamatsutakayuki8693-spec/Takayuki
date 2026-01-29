@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>濱松孝行 | オペラ歌手</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #c9a961;
+            --gold-light: #e4d5b7;
+            --gold-dark: #9d7e3c;
+            --navy: #0a1128;
+            --navy-light: #1c2541;
+            --cream: #fef9f3;
+            --text-dark: #1a1a1a;
+            --text-gray: #6b6b6b;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--text-dark);
+            background: var(--cream);
+            overflow-x: hidden;
+            line-height: 1.7;
+        }
+        
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url('data:image/jpeg;base64,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ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPD94cGFja2V0IGVuZD0idyI/PgD/7QB4UGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAD8cAVoAAxslRxwCAAACAAIcAj8ABjEyNDU0ORwCPgAIMjAxNjEyMjIcAjcACDIwMTYxMjIyHAI8AAYxMjQ1NDkAOEJJTQQlAAAAAAAQEL7XNU9SbkeAwCSsc0RDlf/AABEIBQADVgMBEQACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAAICAgICAgMCAgMFAwMDBQYFBQUFBggGBgYGBggKCAgICAgICgoKCgoKCgoMDAwMDAwODg4ODg8PDw8PDw8PDw//2wBDAQIDAwQEBAcEBAcQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/3QAEAGv/2gAMAwEAAhEDEQA/APBI09q9ux5ZcRMUzMtoh6UAW40/OgC4iUAWlX2oAnVBQBaRfasyrE6D8MVTKLKqakzJ1TPWgCVUxQzQmCCgCcLigCRVzQBYCenSgCZUpXAnEdK6C5Mqe1DAlCnipAlCYoAeEoAeFrQCULnpU2KRIBj3oZRKB7UWAeFqQJAp6UCsPA7mgZIFoAkCk0ASBfagB+z8aVwFCUwHbCaLgPC+1TcBwSi4DglSBJtx1oAXZ0qrgOC85FSA8JQA7b2FAB30AL5YoAXaPagCMqPSgCPy80AOEaZBxxQMVlHOKCrDfLyuQKLWdwvqf/UuxpXdY8spog9KALUaUAWkHSgC0gPbtQBYVfasMSxG1K4ElFwJQ1K4WHA560WuFhR0qUxXFAoaQDlX0osFy1GoqbFpksS96LFpky+2KQiVBzQUkWEWpKsWVUd6QxR7UAdL8Nfidrfwv1r+27LdNpVy4W/s87Qp/jZPRsf8B6Ed80k+V3A/aOyvIdS0u21G2BBuEDlf7rc7k/BsqfoRXRYxT2ON/a2l+HMO42bDfpCRwpH+uQf+PnP0BrR9gXc+IrH4n+D5tfVdH1aKXU7lN1razw3lvqIjP8Wz/Vuf+AcfWkDPvXwn4MtvCmoalqQ1i+13VtQjiibUb+QPI0USsvkxge34mvLclK4aLY9hCmq1BJMoxTAcF9aAHhOhpgPVaVgJAo7CgB6rQIkVfQ0AShPakA4LRcBwTFAC7BTAXZQAvlmgBDHQAhXNAEbUAQN2pAf/0fEkjr27HmlxVoAtQimVYnUc9aENEqpTJJlT0qgsSKlZkmE6CriApUAWQPagCwFqbhYmXArNFrcnQfWqJJVFSMlCfSnYLDgg6U+gro//0PTU4r3DxC2ifSgC0q+1AFpRT3AkVfetQZbQVJQy0IZYVaLhYsotZgWQvNSWmSqO9SBYUdKALi1DLTLkYrNoprYlQc9KALCqeaqxVh6qe1K+tg13J0T0xU3JuWYo+PXFKwCyJx0pgVWXHFL0ZS0uUZk54qRoruOgkLYxTsZp7lJx6UxlOQfWqRDK8o65qhMqSD0pMaKjD0oWhDZRt1q1azJktxq9/WqJtoV2NOBViEDnoKBpC596EyWMYdqAKsicY6VAzxz4uaVbeJtH1Hw5e29rDbarax282rSopjsnLqrNnhlUlskHAxk9q2iu5Jz/APwSJj+w+GfFXhrCLHa+G9Tt7a2I7W10qoP+BI81VYn38SaHaeKtF1Tw7fyCKz1qxubKSRugjmjaMn8MnNaK11cfU+ER+zP4j0f4fQxTpY63q1hJLeT6hqt0txdys0jOFCr9xFwmF9MnvSwuHmfWv7Nnwii+EHhw2T3X2vUb+db++8vO2MhFVIv+BbTk+pI7YrHn56jkwPppa5L63HYlC8UWAeqjNAEgWi4WJAtGgD1SmA8LQAuygBQvak0A8J+VAmSBMdaLDHhKAF20ABWixQbTz29qGhMcoHWgB4FIC0o6YosBKOlAD8UAJQA8CgByn0oAkWgokUe1AH/0vPUTn0r27HllxE+lAFtFoAtKKLgSqKdxXJlWpKSLAGAMVDNLjw1ToBYVqnURYVqQyamABuKALSj2pXEWFH0oJJ4wPxqbjSJl/Km9CrDyT0pcpC3IWPNOpA0j0pvUz5ShIpByaOUtMryLT6C1I2FC6CSBhT1Ex6p0qXcNdCV15phzsKmKzLW5WuV9KixRQmGRQzNCkHmqY9Rh+tAWK0gx1qbEshbvQhEN14pDsVnHNAWKUi0SRahuM9KdyLlNh3zU7E2Kr9aiw+xUkzmgCuyj1pgsUJRzigDn72AxHINAnyP42+Ec3iPTtVTT8F9Y8P6noy4X5hNJa+bFj/gccX616qsopPsczPzVz/yLNl/25Wn/AMbT/Cg+k/h5/wAjd4Y/6+j/AOQpanl+L8Arj9RfhD/yN0v/AGD9Q/8ARZpu3Iv67j/EV+Lv/I2+Kv8AsJ3f/pPJQg1zR6d8ZP2ivDvgf4LeHfjJ4FvLvW/EGs2gHh+UxrFaWzsHSXJDsy4RiCQOvTisJ1ZptICj8d/2afif4/8Agpb+Hvhtf0bT9es4H1Px3ealNJHa6VGPK/0cBdzvISUwcAKp7c4c5c0uUQj/AGdNM0DXNd8QeJvH+oaT/YP2C1S3i1meNJNVkLMWcITkoMfez0PWpf2gP0QtLeOws4bOFdkVpFHDGv8AdRAFUfkBU7i6mAzZ79KpXCwzbRcLBtqQJAtHMHKSBfSkqZC5S3trqGCNjy7SrGv/AI+w/rWcpaHbRj8Rztq+m/wm3u4/9W6PGfwYdamS0umb0pL2lh/iDwXqGjJPPoiTahoKhpDpgYTG3CgszQseUwMkr90Y54pJlns/7IuvSa58P9Qjvoriz8S6Pdx3Hh++u0Kb4S480An+8jN+BCnoDWTWpZ9GAGqELknNAC7fegQu2kBNtoAXbQBNsNAC7PapAXb70AOC+1AA1AD/AGoCxGxHSgCFunNSMcpPTrTRJMvSrRD3JRxgUCIsD6UASDqKBjwPSgCZR6c0AJigB6igB4/GgCQJQA/b+NAC7aAJ0FIDxD/wT6+Ev2Xw94q+Iup28RM8pt9JDKehQPNKOfRmhT/gNUxNn6M7fU0WC5FioFc//9PzxF+te2eIaovpUgaIvQ0gNEX0oAsqvpUlBtBpNjRL5dK4rFRjnmkVcgfFSMrvSdguDgHoaVhcuxWc9KAsOCYpgSqtMCZV9qALKr71NxosKuKlFWJgPaoK1K0q4PpU2uI5Lxb4Ii8SWN1pdlqn2S/F1DNJLJI6+ahEmSQ8eADx0wRXURc+c/8AhAfFP/Q06x/4Hl/wp/C/UGfe//CiYf8ApYf/AAef/wCIp/ZYH0l/woqP/oY/+/mr/wDzXS5YluR86f8ACBX3/Qw/+TN1/wDLfS5V3F1PQvDnwp1Lw1dJdnxTq2obcZV724VT6fLGV/pV8iC56Hb/AAb1Vf8AmPaw3++0X/xwVPKuwWJR8GdT/wCht1v/AMD5v/j9HJH+mFj/2Q==');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(10, 17, 40, 0.85) 0%, rgba(28, 37, 65, 0.75) 100%);
+            z-index: 1;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(201, 169, 97, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(201, 169, 97, 0.1) 0%, transparent 50%);
+            z-index: 1;
+            animation: subtleMove 20s ease-in-out infinite;
+        }
+        
+        @keyframes subtleMove {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(30px, -30px) scale(1.05); }
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            animation: fadeInUp 1.2s ease-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 300;
+            color: var(--cream);
+            margin-bottom: 1rem;
+            letter-spacing: 0.05em;
+            animation: fadeInUp 1.2s ease-out 0.2s both;
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(1rem, 2vw, 1.4rem);
+            color: var(--gold);
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin-bottom: 3rem;
+            animation: fadeInUp 1.2s ease-out 0.4s both;
+        }
+        
+        .hero-divider {
+            width: 60px;
+            height: 1px;
+            background: var(--gold);
+            margin: 2rem auto;
+            animation: expandWidth 1s ease-out 0.8s both;
+        }
+        
+        @keyframes expandWidth {
+            from { width: 0; }
+            to { width: 60px; }
+        }
+        
+        .scroll-indicator {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+        
+        .scroll-indicator::after {
+            content: '';
+            display: block;
+            width: 1px;
+            height: 50px;
+            background: linear-gradient(to bottom, var(--gold), transparent);
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(10px); }
+        }
+        
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(254, 249, 243, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(201, 169, 97, 0.2);
+            z-index: 100;
+            padding: 1.5rem 0;
+            transition: all 0.3s ease;
+        }
+        
+        nav.scrolled {
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+        }
+        
+        nav a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            font-weight: 300;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            width: 0;
+            height: 1px;
+            background: var(--gold);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+        
+        nav a:hover {
+            color: var(--gold-dark);
+        }
+        
+        nav a:hover::after {
+            width: 100%;
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 8rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        section:nth-child(even) {
+            background: white;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 5rem;
+            animation: fadeIn 1s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .section-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 300;
+            color: var(--navy);
+            margin-bottom: 1rem;
+            letter-spacing: 0.02em;
+        }
+        
+        .section-subtitle {
+            font-size: 0.9rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold-dark);
+            font-weight: 300;
+        }
+        
+        /* About Section */
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .about-content p {
+            font-size: 1.1rem;
+            line-height: 2;
+            color: var(--text-gray);
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+        
+        .about-content .highlight {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            color: var(--navy);
+            font-style: italic;
+            margin: 3rem 0;
+            line-height: 1.8;
+        }
+        
+        /* Performance Timeline */
+        .performance-timeline {
+            max-width: 900px;
+            margin: 3rem auto;
+            position: relative;
+        }
+        
+        .performance-timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background: linear-gradient(to bottom, 
+                transparent, 
+                var(--gold-light) 20%, 
+                var(--gold-light) 80%, 
+                transparent);
+            transform: translateX(-50%);
+        }
+        
+        .performance-item {
+            position: relative;
+            margin-bottom: 4rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        
+        .performance-item:nth-child(even) .performance-content {
+            order: 2;
+        }
+        
+        .performance-item:nth-child(even) .performance-date {
+            text-align: left;
+        }
+        
+        .performance-date {
+            text-align: right;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.3rem;
+            color: var(--gold-dark);
+            font-weight: 500;
+        }
+        
+        .performance-content {
+            background: white;
+            padding: 2rem;
+            border-left: 2px solid var(--gold);
+            transition: all 0.3s ease;
+        }
+        
+        .performance-content:hover {
+            transform: translateX(10px);
+            box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.05);
+        }
+        
+        .performance-content h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.6rem;
+            color: var(--navy);
+            margin-bottom: 0.5rem;
+        }
+        
+        .performance-content .details {
+            color: var(--text-gray);
+            font-size: 0.95rem;
+            line-height: 1.8;
+        }
+        
+        /* Contact Section */
+        .contact-section {
+            background: var(--navy);
+            color: var(--cream);
+            text-align: center;
+        }
+        
+        .contact-section .section-title {
+            color: var(--cream);
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 4rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+        
+        .contact-item {
+            text-align: center;
+        }
+        
+        .contact-item .icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 1rem;
+            border: 1px solid var(--gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--gold);
+            transition: all 0.3s ease;
+        }
+        
+        .contact-item:hover .icon {
+            background: var(--gold);
+            color: var(--navy);
+            transform: rotate(360deg);
+        }
+        
+        .contact-item a {
+            color: var(--cream);
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        
+        .contact-item a:hover {
+            color: var(--gold);
+        }
+        
+        .contact-item .label {
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--gold-light);
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--navy-light);
+            color: var(--cream);
+            text-align: center;
+            padding: 3rem 2rem;
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+        }
+        
+        footer p {
+            opacity: 0.7;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            section {
+                padding: 5rem 5%;
+            }
+            
+            nav ul {
+                gap: 1.5rem;
+            }
+            
+            .performance-timeline::before {
+                left: 20px;
+            }
+            
+            .performance-item {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                padding-left: 60px;
+            }
+            
+            .performance-item:nth-child(even) .performance-content {
+                order: 1;
+            }
+            
+            .performance-date {
+                text-align: left;
+            }
+            
+            .performance-content {
+                transform: none !important;
+            }
+            
+            .contact-info {
+                gap: 2rem;
+            }
+        }
+        
+        /* Scroll Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1>濱松孝行</h1>
+            <div class="hero-divider"></div>
+            <p class="hero-subtitle">Tenor</p>
+        </div>
+        <div class="scroll-indicator"></div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav id="nav">
+        <ul>
+            <li><a href="#about">Profile</a></li>
+            <li><a href="#performances">Performances</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header fade-in">
+            <p class="section-subtitle">About</p>
+            <h2 class="section-title">プロフィール</h2>
+        </div>
+        <div class="about-content fade-in">
+            <p>
+                神奈川県出身。東京藝術大学卒業、同大学院及び新国立劇場オペラ研修所修了。ミラノ・スカラ座アカデミー、バイエルン州立歌劇場オペラスタジオにて研鑚を積む。ムーティ・イタリアオペラアカデミーinTokyoでは『アッティラ』フォレストで参加。日本トスティ歌曲コンクール第1位及び日本歌曲賞の他、多数入賞。これまでに『アイーダ』ラダメス、『イオランタ』ヴォーデモン、『カヴァレリア・ルスティカーナ』トゥリッドゥ、『パリアッチ』カニオ、新国立劇場『夜鳴きうぐいす』日本の使者1、『ばらの騎士』ファーニナル家の執事、『ボリス・ゴドゥノフ』侍従、二期会会員。
+            </p>
+        </div>
+    </section>
+    
+    <!-- Performances Section -->
+    <section id="performances">
+        <div class="section-header fade-in">
+            <p class="section-subtitle">Upcoming</p>
+            <h2 class="section-title">公演情報</h2>
+        </div>
+        <div class="performance-timeline">
+            <div class="performance-item fade-in">
+                <div class="performance-date">2026年2月21日（土）</div>
+                <div class="performance-content">
+                    <h3>Sumi-Co ミニコンサート</h3>
+                    <p class="details">
+                        【午前の部】11:00開演（11:40終演予定）<br>
+                        【午後の部】14:00開演（14:40終演予定）<br>
+                        会場：江戸川区文化スポーツプラザ 2階 体育館
+                    </p>
+                </div>
+            </div>
+            <div class="performance-item fade-in">
+                <div class="performance-date">2026年2月28日（土）</div>
+                <div class="performance-content">
+                    <h3>第142回 光の庭プロムナード・コンサート</h3>
+                    <p class="details">
+                        14:00開演（14:40終演）<br>
+                        会場：彩の国さいたま芸術劇場 光の庭
+                    </p>
+                </div>
+            </div>
+            <div class="performance-item fade-in">
+                <div class="performance-date">2026年3月21日（土）、22日（日）、26日（木）、28日（土）、29日（日）</div>
+                <div class="performance-content">
+                    <h3>東京春祭 for Kids<br>子どものためのワーグナー《さまよえるオランダ人》<br>（バイロイト音楽祭提携公演）</h3>
+                    <p class="details">
+                        3/21（土）、22（日）、28（土）、29（日）14:00開演<br>
+                        3/26（木）19:00開演<br>
+                        役：舵手（テノール）<br>
+                        会場：三井住友銀行 東館 ライジング・スクエア1階 アース・ガーデン<br>
+                        指揮：石坂 宏 / 監修・芸術監督：カタリーナ・ワーグナー
+                    </p>
+                </div>
+            </div>
+            <div class="performance-item fade-in">
+                <div class="performance-date">2027年2月6日（土）、8日（月）、10日（水）、13日（土）</div>
+                <div class="performance-content">
+                    <h3>R・シュトラウス 新国立劇場本公演《サロメ》</h3>
+                    <p class="details">
+                        各日14:00開演<br>
+                        会場：新国立劇場 オペラパレス<br>
+                        上演時間：約1時間40分（休憩なし）
+                    </p>
+                </div>
+            </div>
+            <div class="performance-item fade-in">
+                <div class="performance-date">2027年4月2日（金）、4日（日）、8日（木）、11日（日）</div>
+                <div class="performance-content">
+                    <h3>新国立劇場本公演《ばらの騎士》</h3>
+                    <p class="details">
+                        4/2（金）16:00開演<br>
+                        4/4（日）、8（木）、11（日）14:00開演<br>
+                        会場：新国立劇場 オペラパレス<br>
+                        上演時間：約4時間10分（休憩含む）
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <p class="section-subtitle">Get in Touch</p>
+            <h2 class="section-title">お問い合わせ</h2>
+        </div>
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="icon">✉</div>
+                <p class="label">Email</p>
+                <a href="mailto:hamamatsu.takayuki.8693@gmail.com">hamamatsu.takayuki.8693@gmail.com</a>
+            </div>
+        </div>
+        <p style="margin-top: 3rem; opacity: 0.6; font-size: 0.9rem;">
+            公演のご依頼、出演に関するお問い合わせはお気軽にご連絡ください
+        </p>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Takayuki Hamamatsu. All Rights Reserved.</p>
+    </footer>
+    
+    <script>
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+        
+        // Navigation scroll effect
+        const nav = document.getElementById('nav');
+        let lastScroll = 0;
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        });
+        
+        // Smooth scroll for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
